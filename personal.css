@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(231, 222, 222);
+    width: 1532px;
+    overflow-x: hidden;
+}
+a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    color: white;
+   position: relative;
+   margin: 15px;
+   text-decoration: none;
+}
+.area{
+    border: 2px solid black;
+    position: absolute;
+    left: 0px;
+    top: -16px;
+    width: 1532px;
+    height: 33px;
+    background-color: black;
+}
+
+h6{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    position: relative;
+    top: 29px;
+    color: #518071
+}
+h3{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+}
+.cont{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -32px;
+    left: 18px;
+                                /*height and overflow use kiya hai batane ko ki utne area ka hi dikhega otherwise teeno student programmer aur webd dikht*/
+     height: 20px;                                           /*  height se leke overflow tak sb jruri hai sliding ke liye */
+    display: flex;
+    justify-content: center;
+     align-items: center; 
+    overflow: hidden;
+}
+   .slide{
+    color: #518071;
+    animation: slider 6s linear infinite;
+}
+@keyframes slider {
+    0%{ margin-top: -38px;}
+    30%{ margin-top: -38px;}
+      35%{ margin-top: 0px;}
+    65%{ margin-top: 0px;} 
+    70%{ margin-top: 38px;}
+    100%{ margin-top: 38px;} 
+}   
+.select{
+   
+    padding: 20px;
+    margin: 10px;
+   top: 62px;
+    width: 525px;
+    position: absolute;
+    left: 685px;
+}
+table{
+    position: absolute;
+    left: 715px;
+    top: 340px;
+}
+img{
+    width:290px;
+    position: absolute;
+    left: 365px;
+    top: 250px;
+
+}
+h2{
+    color: #ded8d8;
+   
+    font-size: 160px;
+    position: relative;
+    top: -183px;
+    left: 564px;
+}
+.rot{
+    writing-mode: vertical-lr;
+    font-size: 11px;
+    position: absolute;
+    top: 362px;
+    left: 691px;
+    
+}
+.line{
+    writing-mode: vertical-lr;
+    font-size: 13px;
+    position: absolute;
+    top: 423px;
+    left: 694px;
+}
+ul{
+    
+    width: 380px;
+    position: absolute;
+    top: 305px;
+    left: 738px;
+    color: #312A2A;
+}
+.gmail{
+    position: absolute;
+    top: 620px;
+  width: 20px;
+}
+.userig{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 13px;
+    position: absolute;
+    top: 610px;
+    left: 393px;
+}
+.call{
+    position: absolute;
+    top: 644px;
+    left: 366px;
+    width: 17px;
+}
+.usercall{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    position: absolute;
+    top: 636px;
+    left: 394px;
+}
+.cal{
+    position: absolute;
+    top: 668px;
+    left: 366px;
+    width: 16px;
+}
+.usercal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    position: absolute;
+    top: 659px;
+    left: 394px;
+}
+.hut{
+    position: absolute;
+    top: 690px;
+    left: 366px;
+    width: 16px;
+}
+.userhut{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+    position: absolute;
+    top: 683px;
+    left: 394px;
+}
+.logo1 {
+    width: 20px;
+    position: absolute;
+    top: 720px;
+    left: 472px;
+    cursor: pointer;
+}
+.logo2{
+    width: 20px;
+    position: absolute;
+    top: 720px;
+    left: 493px;
+    cursor: pointer;
+}
+.logo3{
+    width: 20px;
+    position: absolute;
+    top: 720px;
+    left: 514px;
+    cursor: pointer;
+}
+
+.icon{
+    position: absolute;
+    top: -15px;
+    left: 1460px;
+    width: 65px;
+}

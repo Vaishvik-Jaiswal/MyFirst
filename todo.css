@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(231, 222, 222);
+    
+}
+h2{
+    color: #ded8d8;
+  font-size: 160px;
+  position: relative;
+    top: -112px;
+    left: 513px;
+
+}
+img{
+    width: 50px;
+    position: relative;
+    top: 40px;
+    left: 735px;
+}
+a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    color: white;
+   position: relative;
+   margin: 15px;
+   text-decoration: none;
+}
+.area{
+    border: 2px solid black;
+    position: absolute;
+    left: 0px;
+    top: -16px;
+    width: 1532px;
+    height: 33px;
+    background-color: black;
+}
+.icon{
+    position: absolute;
+    top: -15px;
+    left: 1460px;
+    width: 65px;
+}
+input{
+    width: 433px;
+    position: relative;
+    top: -236px;
+    left: 543px;
+    height: 25px;
+    border-radius: 5px;
+}
+.btn1{
+    position: absolute;
+    top: 352px;
+    left: 845px;
+    background-color: #A69BA5;
+   cursor: pointer;
+   
+}
+.btn1:hover{
+    background-color: #797EAA;
+}
+.btn2{
+    position: absolute;
+    top: 352px;
+    left: 927px;
+    background-color: #D19FA0;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #A26578;
+}
+table{
+    width: 75%;
+    border-collapse: collapse ;
+   empty-cells: hide;
+}
+table thead tr{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -192px;
+    left: 318px;
+    font-size: 17px;
+    color: #676060;
+    text-align: left;
+  
+}
+table tbody tr{
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    left: 319px;
+    top: -185px;;
+    
+}
+.del{
+    background-color: #7FD1AE;
+    cursor: pointer;
+}
+.finish{
+    background-color:#a6d8d6 ;
+    cursor: pointer;
+}
